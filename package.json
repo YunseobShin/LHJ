@@ -1,0 +1,24 @@
+{
+  "name": "lhj",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sudo forever start app.js",
+    "stop": "sudo forever stopall",
+    "test": "nodemon app.js test"
+  },
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "async": "^1.5.2",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cuid": "^1.3.8",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.14.8",
+    "popper.js": "^1.12.9",
+    "serve-favicon": "~2.4.5"
+  }
+}
